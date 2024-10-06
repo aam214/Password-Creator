@@ -1,0 +1,39 @@
+body{
+  background: linear-gradient(to top, rgb(251, 194, 235) 0%, rgb(166, 193, 238) 100%);
+background-repeat: no-repeat;
+height: 100vh;
+}
+h1{
+  font-size: 70px;
+  font-family: "Coda", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color:  rgb(27, 27, 27);
+  letter-spacing: 2px;
+}
+.container{
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 200px;
+  display: block;
+text-align: center;
+  background-color: rgba(243, 219, 234, 0.336);
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  padding: 50px;
+}
+input{
+  padding: 20px 30px 20px 30px;
+  align-items: center;
+  font-family: "Coda", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  opacity: 0.8;
+  width: 50%;
+  margin: 10px;
+}
+i{
+  font-size: 40px;
+  align-items: baseline;
+}
