@@ -17,7 +17,7 @@ h1{
   margin-top: 200px;
   display: block;
 text-align: center;
-  background-color: rgba(243, 219, 234, 0.336);
+  background-color: rgba(252, 249, 251, 0.336);
   box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
   border-radius: 4px;
   padding: 50px;
@@ -30,10 +30,23 @@ input{
   font-style: normal;
   font-size: 20px;
   opacity: 0.8;
+  color: black;
   width: 50%;
   margin: 10px;
 }
 i{
   font-size: 40px;
+  color:#725ece;
   align-items: baseline;
+}
+button{
+  background-color: #725ece;
+  color: white;
+  margin: 20px;
+font-size: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 30px 40px 30px 40px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
 }
