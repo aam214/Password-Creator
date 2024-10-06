@@ -2,6 +2,9 @@ body{
   background: linear-gradient(to top, rgb(251, 194, 235) 0%, rgb(166, 193, 238) 100%);
 background-repeat: no-repeat;
 height: 100vh;
+font-family: "Coda", system-ui;
+font-weight: 400;
+font-style: normal;
 }
 h1{
   font-size: 70px;
@@ -29,24 +32,41 @@ input{
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+  border: none;
   opacity: 0.8;
   color: black;
+  border-radius: 4px;
   width: 50%;
   margin: 10px;
 }
 i{
-  font-size: 40px;
-  color:#725ece;
+  font-size: 30px;
+  cursor: pointer;
+  color: #c70095;
   align-items: baseline;
 }
+i:hover{
+  opacity: 0.7;
+
+}
 button{
-  background-color: #725ece;
+  background-color: #c70095;
   color: white;
   margin: 20px;
 font-size: 20px;
-  border: 2px solid black;
+border: none;
   border-radius: 4px;
   padding: 30px 40px 30px 40px;
+  cursor: pointer;
+  transition: all ease-in-out 120ms;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-
+}
+button:hover{
+  width: 30%;
+  opacity: 0.7;
+}
+.alert-message{
+  padding: 40px 10px 40px 10px;
+color: #fc44ce;
+font-size: 20px;
 }
